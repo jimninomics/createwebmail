@@ -6,7 +6,7 @@ from email.header import decode_header
 
 def fetch_emails_and_extract_code(username, password, limit=5):
     # Connect to the IMAP server
-    mail = imaplib.IMAP4_SSL('mail.financedon.online', 993)
+    mail = imaplib.IMAP4_SSL('', 993)
     verification_code = None
 
     try:
@@ -170,8 +170,8 @@ def fetch_emails_and_extract_link(username, password, limit=5):
     return invite_link
 
 if __name__ == "__main__":
-    username = "michelle_arnold60@ventfluefix.store"  # Your email address
-    password = 'hKB0q!r5l1*I'  # Your password
+    username = ""  # Your email address
+    password = ''  # Your password
 
     code = fetch_emails_and_extract_code(username, password, limit=20)
     if code:
