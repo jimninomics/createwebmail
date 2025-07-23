@@ -2,9 +2,9 @@ import csv
 from signalwire.rest import Client as SignalWireClient
 
 # 🔧 Configure your SignalWire credentials
-PROJECT_ID = '3509ead4-4fb4-4e10-89e0-20a67ba1a9e4'
-API_TOKEN = 'PT8bd4f3a80e4557b7c3fd3ca96061917ecb27ca99a119e499'
-SPACE_URL = 'oneill1906.signalwire.com'
+PROJECT_ID = ''
+API_TOKEN = ''
+SPACE_URL = ''
 
 client = SignalWireClient(PROJECT_ID, API_TOKEN, signalwire_space_url=SPACE_URL)
 
