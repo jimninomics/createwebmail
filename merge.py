@@ -32,9 +32,9 @@ openvpn_path = r"C:\Program Files\OpenVPN\bin\openvpn.exe"
 list_of_proxy = [f"vpn/{file}" for file in os.listdir('vpn') if file.endswith('.ovpn')]
 
 auth_path = "vpn/auth.txt"
-CPANEL_URL = "https://cpanel.financedon.online:2083"  # Updated cPanel URL to match the domain
-CPANEL_USERNAME = "fleaycpy"                   # Your cPanel username
-CPANEL_PASSWORD = "aloomaID123@$"              # Replace with actual password
+CPANEL_URL = ""  # Updated cPanel URL to match the domain
+CPANEL_USERNAME = ""                   # Your cPanel username
+CPANEL_PASSWORD = ""              # Replace with actual password
 
 def is_vpn_connected():
     """Check if VPN is connected by verifying the external IP address."""
@@ -1156,9 +1156,9 @@ def update_sheet(webmail, password, data):
 
 def main():
     driver = connect_to_incognitor()
-    email_domain= 'cleanflowpros.space'
-    login_webmail= f'jadesmith@{email_domain}'
-    login_password= 'jadesmith@123'
+    email_domain= ''
+    login_webmail= f''
+    login_password= ''
     status_data= login_to_webmail(driver, login_webmail, login_password)
     if status_data==True:
         index=0
