@@ -1,9 +1,9 @@
 import requests
 
 # Replace with your correct API user credentials
-username = "rahmonidris04@gmail.com"  # Must be an admin user
-password = "aloomaid123@$"
-client_secret = "f558ba166258089b2ef322c340554c"
+username = ""  # Must be an admin user
+password = ""
+client_secret = ""
 
 url = "https://apicfa.convirza.com/oauth/token"
 payload = {
