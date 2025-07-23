@@ -311,7 +311,7 @@ def get_verification_code(
 
 def main():
     parser = argparse.ArgumentParser(description="DaisySMS API Client")
-    parser.add_argument("--api-key", help="Your DaisySMS API key", default="1FnYUz38JilRDCbFcoxIRsYvuWCGH1")
+    parser.add_argument("--api-key", help="Your DaisySMS API key", default="")
     parser.add_argument("--service", help="Service code", default="go")  # go for Google/Gmail/YouTube
     parser.add_argument("--max-price", help="Maximum price", type=float, default=0.21)
     parser.add_argument("--areas", help="Comma-separated area codes", default="")
