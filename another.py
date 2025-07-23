@@ -92,14 +92,14 @@ def verify_domain_exists(domain):
 
 if __name__ == "__main__":
     # Configuration
-    CPANEL_URL = "https://cpanel.financedon.online:2083"  # Updated cPanel URL to match the domain
-    CPANEL_USERNAME = "fleaycpy"                   # Your cPanel username
-    CPANEL_PASSWORD = "aloomaID123@$"              # Replace with actual password
+    CPANEL_URL = ""  # Updated cPanel URL to match the domain
+    CPANEL_USERNAME = ""                   # Your cPanel username
+    CPANEL_PASSWORD = ""              # Replace with actual password
 
     # Email account details
-    EMAIL_USER = "lbrewer750"                          # Email username (before @)
-    EMAIL_DOMAIN = "financedon.online"             # Your domain
-    EMAIL_PASSWORD = "6qK50yoj#R$T"               # Password for new email
+    EMAIL_USER = ""                          # Email username (before @)
+    EMAIL_DOMAIN = ""             # Your domain
+    EMAIL_PASSWORD = ""               # Password for new email
 
     # First verify the domain exists
     domain = CPANEL_URL.split("://")[1].split(":")[0]
